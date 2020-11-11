@@ -1,0 +1,25 @@
+{
+  "name": "Analisador-de-N-meros",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klsio22/Analisador-de-N-meros.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klsio22/Analisador-de-N-meros/issues"
+  },
+  "homepage": "https://github.com/klsio22/Analisador-de-N-meros#readme",
+  "dependencies": {
+    "next": "^10.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}

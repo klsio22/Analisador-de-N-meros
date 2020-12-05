@@ -1,9 +1,17 @@
 function Sobre() {
   return (
-    <div>
-      <h1>Sobre</h1>
-      <a href="/">Acessar página Home</a>
-    </div>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sobre</title>
+      </head>
+      <body>
+        <h1>Sobre</h1>
+        <a href="index.html">Acessar página Sobre</a>
+        <p>Dechamps não merece os R$ 5,00</p>
+      </body>
+    </html>
   );
 }
 

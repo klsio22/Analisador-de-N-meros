@@ -2,7 +2,7 @@ function HomePage() {
   return (
   <div>
     <h1>Home</h1>
-    <a href="/sobre">Acessar Página Sobre</a>
+    <a href="/sobre.js">Acessar Página Sobre</a>
   </div>
   )
 }

@@ -8,7 +8,7 @@ function HomePage() {
       </head>
       <body>
         <h1>Home</h1>
-        <a href="/sobre.js">Acessar página Sobre</a>
+        <a href="/sobre">Acessar página Sobre</a>
         <p>Aparências enganam</p>
 
       </body>

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import link from "next/link";
+
 
 function HomePage() {
   return (
@@ -12,7 +12,7 @@ function HomePage() {
       <body>
         <h1>Home</h1>
 
-        <Link href="sobre">
+        <Link href="sobre.js">
           <a >Acessar página Sobre</a>
         </Link>
         <p>As Aparências enganam</p>

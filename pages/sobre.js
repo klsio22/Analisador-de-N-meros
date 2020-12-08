@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function Sobre() {
   return (
     <html lang="en">
@@ -8,7 +10,7 @@ function Sobre() {
       </head>
       <body>
         <h1>Sobre</h1>
-        <Link href="index">
+        <Link href="index.js">
           <a >Acessar página Sobre</a>
         </Link>
         <p>Alguém escorregou o primer</p>

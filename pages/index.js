@@ -1,3 +1,6 @@
+import Link from "next/link";
+import link from "next/link";
+
 function HomePage() {
   return (
     <html lang="pt-BR">
@@ -8,9 +11,11 @@ function HomePage() {
       </head>
       <body>
         <h1>Home</h1>
-        <a href="sobre">Acessar página Sobre</a>
-        <p>As Aparências enganam</p>
 
+        <Link href="sobre">
+          <a >Acessar página Sobre</a>
+        </Link>
+        <p>As Aparências enganam</p>
       </body>
     </html>
   );

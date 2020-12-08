@@ -8,8 +8,10 @@ function Sobre() {
       </head>
       <body>
         <h1>Sobre</h1>
-        <a href="index.html">Acessar página Sobre</a>
-        <p>Dechamps não merece os R$ 5,00</p>
+        <Link href="index.html">
+          <a >Acessar página Sobre</a>
+        </Link>
+        <p>Alguém escorregou o primer</p>
       </body>
     </html>
   );

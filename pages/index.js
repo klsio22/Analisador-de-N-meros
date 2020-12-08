@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-
 function HomePage() {
   return (
     <html lang="pt-BR">
@@ -15,6 +14,11 @@ function HomePage() {
         <Link href="sobre">
           <a >Acessar página Sobre</a>
         </Link>
+
+        <Link href="tempo">
+          <a>Saber Data e hora</a>
+        </Link>
+
         <p>As Aparências enganam</p>
       </body>
     </html>

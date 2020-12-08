@@ -10,7 +10,7 @@ function Sobre() {
       </head>
       <body>
         <h1>Sobre</h1>
-        <Link href="index.js">
+        <Link href="index">
           <a >Acessar página Sobre</a>
         </Link>
         <p>Alguém escorregou o primer</p>

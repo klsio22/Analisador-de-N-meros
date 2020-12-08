@@ -13,11 +13,11 @@ function Sobre() {
         <Link href="index">
           <a >Acessar página Home</a>
         </Link>
-
+        <br></br>
         <Link href="tempo">
           <a>Saber Data e hora</a>
         </Link>
-        
+
         <p>Alguém escorregou o primer</p>
       </body>
     </html>

@@ -19,7 +19,7 @@ function Tempo() {
         <Link href="index">
           <a>Acessar página Home</a>
         </Link>
-
+        <br></br>
         <Link href="sobre">
           <a>Acessar página Sobre</a>
         </Link>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function Tempo() {
   const dynamicDate = new Date();
 

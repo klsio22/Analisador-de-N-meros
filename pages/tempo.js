@@ -1,7 +1,7 @@
 function Tempo() {
   const dynamicDate = new Date();
 
-  const dynamicDateString = dynamicDate.toGMTString();
+  const dynamicDateString = dynamicDate.toLocaleDateString();
 
   return (
     <html lang="pt-Br">

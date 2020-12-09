@@ -14,9 +14,10 @@ function Tempo(props) {
       <body>
         <h1>Data e hora</h1>
 
-        <div>{dynamicDateString} (dinâmico)</div>
-        <div>{props.staticDateString} (estático)</div>
-
+        <div>
+          <div>{dynamicDateString} (dinâmico)</div>
+          <div>{props.staticDateString} (estático)</div>
+        </div>
         <Link href="index">
           <a>Acessar página Home</a>
         </Link>
@@ -31,21 +32,15 @@ function Tempo(props) {
   );
 }
 
-
-export function getStaticProps(){
+export function getStaticProps() {
   const staticDate = new Date();
+  const staticDateString = staticDate.toGMTString();
 
-  const staticDateString = StaticDate.toGMTString();
-
-  return{
-
-    props: { 
-      staticDateString
-    }
-    
-  }
-
+  return {
+    props: {
+      staticDateString,
+    },
+  };
 }
-
 
 export default Tempo;

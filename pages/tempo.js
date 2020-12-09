@@ -2,7 +2,6 @@ import Link from "next/link";
 
 function Tempo(props) {
   const dynamicDate = new Date();
-
   const dynamicDateString = dynamicDate.toGMTString();
 
   return (
@@ -16,7 +15,7 @@ function Tempo(props) {
         <h1>Data e hora</h1>
 
         <div>{dynamicDateString} (dinâmico)</div>
-        <div>{props.dynamicDateString} (estático)</div>
+        <div>{props.staticDateString} (estático)</div>
 
         <Link href="index">
           <a>Acessar página Home</a>
